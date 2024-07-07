@@ -1,0 +1,25 @@
+Week 1-2: Python Fundamentals
+
+    Variables and Data Types:
+        Numbers, strings, lists, tuples, sets, dictionaries
+        Type conversion (e.g., int(), str(), float())
+    Basic Operations:
+        Arithmetic operations (+, -, *, /, //, %, **)
+        String operations (concatenation, slicing, formatting)
+        List operations (indexing, slicing, appending, removing)
+    Control Flow:
+        Conditional statements (if, elif, else)
+        Loops (for, while)
+        List comprehensions
+
+Week 3-4: Functions and Modules
+
+    Functions:
+        Defining functions (def), arguments, keyword args, default args
+        Returning values, lambda functions
+    Modules:
+        Importing modules (import, from ... import)
+        Standard library modules (e.g., math, random, datetime)
+    Exception Handling:
+        Try/except blocks
+        Handling multiple exceptions, custom exceptions
