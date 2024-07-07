@@ -1,4 +1,5 @@
-# Add class methods and static methods to the Person class. Create class methods to instantiate a person from birth year and a static method to check if a person is a minor.
+# Add class methods and static methods to the Person class. 
+# Create class methods to instantiate a person from birth year and a static method to check if a person is a minor.
 
 class Person:
     # Define the initializer method to set name and age attributes

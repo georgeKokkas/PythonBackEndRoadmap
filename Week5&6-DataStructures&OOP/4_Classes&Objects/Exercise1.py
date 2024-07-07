@@ -1,4 +1,6 @@
-# Create a class Person with attributes for name and age. Add a method to display a greeting message. Create objects of the Person class and call the greeting messages.
+# Create a class Person with attributes for name and age. 
+# Add a method to display a greeting message. 
+# Create objects of the Person class and call the greeting messages.
 
 class Person:
     def __init__(self, name, age):
