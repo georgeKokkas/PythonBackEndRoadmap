@@ -1,3 +1,16 @@
+# This will be a command-line application that can perform basic arithmetic
+# operations like addition, subtraction, multiplication, and division.
+# 
+#     A simple calculator should:
+
+#     Display a menu with options for addition, subtraction, multiplication, and division.
+#     Allow the user to select an option.
+#     Prompt the user to enter two numbers.
+#     Perform the selected arithmetic operation.
+#     Display the result.
+#     Allow the user to perform another calculation or exit.
+
+
 # Define a function to display the menu and get the user's choice
 def display_menu():
     # Prompt the user to choose an arithmetic operation
