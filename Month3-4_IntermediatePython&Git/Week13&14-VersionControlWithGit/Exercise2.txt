@@ -1,0 +1,17 @@
+# Making commits, viewing commit history.
+
+# Step 1: Create a new file and add some content
+echo "Hello, Git!" > hello.txt
+# This command creates a new file named 'hello.txt' and writes "Hello, Git!" to it
+
+# Step 2: Add the file to the staging area
+git add hello.txt
+# This command stages the 'hello.txt' file for the next commit
+
+# Step 3: Commit the file with a message
+git commit -m "Add hello.txt with initial content"
+# This command commits the staged changes with the specified commit message
+
+# Step 4: View the commit history
+git log
+# This command displays the commit history for the repository

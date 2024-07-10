@@ -1,0 +1,31 @@
+# Branching and Merging
+
+# Step 1: Create a new branch
+git branch new-feature
+# This command creates a new branch named 'new-feature'
+
+# Step 2: Switch to the new branch
+git checkout new-feature
+# This command switches to the 'new-feature' branch
+
+# Step 3: Make changes and commit them
+echo "This is a new feature." > feature.txt
+# Create a new file named 'feature.txt' with some content
+
+git add feature.txt
+# Stage the 'feature.txt' file for the next commit
+
+git commit -m "Add feature.txt"
+# Commit the staged changes with a message
+
+# Step 4: Switch back to the main branch
+git checkout main
+# This command switches back to the 'main' branch
+
+# Step 5: Merge the new branch into the main branch
+git merge new-feature
+# This command merges the 'new-feature' branch into the 'main' branch
+
+# Step 6: Delete the new branch (optional)
+git branch -d new-feature
+# This command deletes the 'new-feature' branch
