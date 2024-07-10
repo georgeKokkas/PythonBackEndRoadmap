@@ -1,0 +1,10 @@
+# Install some packages (e.g., requests, pandas) and list the installed packages.
+
+# Install the 'requests' package using pip
+pip install requests
+
+# Install the 'pandas' package using pip
+pip install pandas
+
+# List all installed packages in the virtual environment
+pip list

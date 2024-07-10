@@ -1,0 +1,17 @@
+# Create a new virtual environment, install packages from the requirements file, 
+  and verify the installations.
+
+# Create a new virtual environment named 'newenv'
+python -m venv newenv
+
+# Activate the virtual environment (Windows)
+newenv\Scripts\activate
+
+# Activate the virtual environment (Mac/Linux)
+source newenv/bin/activate
+
+# Install packages from the requirements file
+pip install -r requirements.txt
+
+# Verify the installations by listing all installed packages
+pip list

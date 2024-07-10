@@ -1,0 +1,4 @@
+# Freeze the installed packages to a requirements file.
+
+# Freeze the installed packages and their versions to a requirements file
+pip freeze > requirements.txt
