@@ -1,0 +1,18 @@
+Step 1: Define a model.
+    -- Open 'TestApp/models.py' and define a simple model:
+
+        from django.db import models
+
+        class Task(models.Model):
+            title = models.CharField(max_length=100)
+            description = models.TextField()
+            completed = models.BooleanField(default=False)
+
+            def __str__(self):
+                return self.title
+
+Step 2: Create and Apply Migrations.
+    -- Run the following commands to create and apply the migrations:
+
+        python manage.py makemigrations
+        python manage.py migrate

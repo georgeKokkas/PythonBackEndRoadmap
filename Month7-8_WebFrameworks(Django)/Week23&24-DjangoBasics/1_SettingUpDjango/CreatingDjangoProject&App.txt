@@ -1,0 +1,58 @@
+Step 1: Create a virtual environment.
+
+    -- First, make sure you have Python installed. You can check this by running:
+        python --version
+    
+    -- Create a virtual environment named myenv:
+        python -m venv myenv
+
+    -- Activate the virtual environment:
+        myenv\Scripts\activate
+
+Step 2: Create a Django Project and App.
+
+    -- Install Django using pip:
+        pip install django
+
+    -- Create a Django Project:
+        Navigate to the directory where you want to create your project and run:
+            django-admin startproject TestProject
+
+        This will create a directory named 'TestProject' with the following structure:
+            TestProject/
+                manage.py
+                TestProject/
+                    __init__.py
+                    settings.py
+                    urls.py
+                    asgi.py
+                    wsgi.py
+
+    -- Create a Django App.
+        Navigate to the project directory:
+            cd TestProject
+
+        Create a new app within the project:
+            python manage.py startapp TestApp
+
+        This will create a directory named 'TestApp' with the following structure:
+            myapp/
+                __init__.py
+                admin.py
+                apps.py
+                migrations/
+                    __init__.py
+                models.py
+                tests.py
+                views.py
+
+Step 3: Update 'settings.py'.
+    -- Open 'TestProject/setting.py' and add 'TestApp' to the 'INSTALLED_APPS' list:
+        INSTALLED_APPS = [
+            ...
+            'TestApp',
+        ]
+
+Step 4: Run the Develpment Server
+    -- Navigate to your project directory and run:
+        python manage.py runserver
